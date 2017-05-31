@@ -1,12 +1,12 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import types
+
 print('show me your name now,please~')
 name = input('please enter your name:')
 print('hello,',name)
 print('1024 * 768 = ',(1024*768))
 error = ""
-print(error,r" \\t\\\ can't print? slash will be dounle show then can't translate ")
+print(error,r" \\t\\\ can't print, slash will be dounle show then can't translate ")
 s= r"aa\nnn"
 print(s)
 print(r'\\t\\\\')
