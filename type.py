@@ -22,7 +22,7 @@ sex = input('man or woman or boy or girl:')
 age = input('show me your age:')
 ageInt = int(age)
 if ageInt > 0:
-    if ageInt < 18 :
+    if ageInt <= 18 :
         print('hi little ',sex,name)
     else:
         print('hay old ',sex,name)
